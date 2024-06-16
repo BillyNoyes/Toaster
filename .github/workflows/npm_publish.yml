@@ -13,8 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: touch package-lock.json
-      - run: npm ci
+      - run: npm install
       - run: npm test
 
   publish-npm:
@@ -25,8 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: touch package-lock.json
-      - run: npm ci
+      - run: npm install
       - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
       - run: npm publish
         env:
