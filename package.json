@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/BillyNoyes/Toaster.git"
   },
-  "main": "./src/index.js",
+  "main": "./toaster.js",
   "scripts": {
     "test": "echo \"No tests specified\""
   },

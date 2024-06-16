@@ -1,4 +1,4 @@
-import { createToastComponent } from './toastify.js';
+import { createToastComponent } from './toaster.js';
 
 const notifications = [
   {
