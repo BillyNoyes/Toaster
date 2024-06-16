@@ -1,0 +1,29 @@
+{
+  "name": "toaster",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Billy Noyes <developedbybillynoyes@gmail.com>",
+  "homepage": "https://billynoyes.co.uk",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BillyNoyes/Toaster.git"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "toast",
+    "notifications",
+    "popups",
+    "js",
+    "javascript",
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.20",
+    "node-fetch": "^3.3.2",
+    "yargs": "^17.7.2"
+  }
+}
